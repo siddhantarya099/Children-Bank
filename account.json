@@ -1,0 +1,110 @@
+{
+  "account": [
+    {
+      "id": "12345",
+      "accountNumber": 1111,
+      "balance": 3000,
+      "transactions": [
+        {
+          "transactionType": "Withdraw",
+          "amountUpdated": "500",
+          "timestamp": "2023-08-31T06:38:17.575Z"
+        },
+        {
+          "transactionType": "Deposit",
+          "amountUpdated": "500",
+          "timestamp": "2023-08-31T06:57:54.918Z"
+        },
+        {
+          "transactionType": "Withdraw",
+          "amountUpdated": "500",
+          "timestamp": "2023-08-31T07:27:33.672Z"
+        },
+        {
+          "transactionType": "Deposit",
+          "amountUpdated": "500",
+          "timestamp": "2023-08-31T07:27:48.474Z"
+        }
+      ]
+    },
+    {
+      "id": "dfdh",
+      "accountNumber": 103,
+      "balance": 1000,
+      "transactions": [
+        {
+          "transactionType": "Withdraw",
+          "amountUpdated": "2000",
+          "timestamp": "2023-08-30T15:20:18.132Z"
+        }
+      ]
+    },
+    {
+      "id": "ffgf",
+      "accountNumber": 102,
+      "balance": 1400,
+      "transactions": [
+        {
+          "transactionType": "Withdraw",
+          "amountUpdated": "500",
+          "timestamp": "2023-08-30T15:17:14.659Z"
+        }
+      ]
+    },
+    {
+      "id": "vhvh",
+      "accountNumber": 10001,
+      "balance": 0,
+      "transactions": [
+        {
+          "senderAccount": "102",
+          "receiverAccount": "102",
+          "type": "Withdraw",
+          "amountInvolved": "500"
+        },
+        {
+          "senderAccount": "103",
+          "receiverAccount": "103",
+          "type": "Withdraw",
+          "amountInvolved": "2000"
+        },
+        {
+          "senderAccount": "1111",
+          "receiverAccount": "1111",
+          "type": "Withdraw",
+          "amountInvolved": "500"
+        },
+        {
+          "senderAccount": "1111",
+          "receiverAccount": "1111",
+          "type": "Deposit",
+          "amountInvolved": "500"
+        },
+        {
+          "senderAccount": "1111",
+          "receiverAccount": "1111",
+          "type": "Deposit",
+          "amountInvolved": "50"
+        },
+        {
+          "senderAccount": "1111",
+          "receiverAccount": "1111",
+          "type": "Deposit",
+          "amountInvolved": "500"
+        },
+        {
+          "senderAccount": "1111",
+          "receiverAccount": "1111",
+          "type": "Withdraw",
+          "amountInvolved": "500"
+        },
+        {
+          "senderAccount": "1111",
+          "receiverAccount": "1111",
+          "type": "Deposit",
+          "amountInvolved": "500"
+        }
+      ]
+    }
+  ]
+}

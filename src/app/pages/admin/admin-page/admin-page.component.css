@@ -1,0 +1,50 @@
+.admin-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    font-family: 'Montserrat';
+}
+
+.admin-page-head {
+    font-weight: 600;
+    font-size: 18px;
+    color: #3b0076;
+}
+
+.admin-page-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.admin-page-view {
+    width: 75%;
+}
+
+.admin-page-features {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin-page-feature {
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #3b0076;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.admin-page-feature:hover {
+    background-color: #532581;
+}

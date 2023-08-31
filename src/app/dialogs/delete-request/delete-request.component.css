@@ -1,0 +1,47 @@
+.delete-request-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 10px;
+    font-family: 'Montserrat';
+}
+
+.delete-request-head {
+    font-weight: 700;
+    font-size: 15px;
+    color: #3b0076;
+}
+
+.delete-request-content {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.delete-request-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.delete-request-button-yes {
+    background-color: #3b0076;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.delete-request-button-no {
+    background-color: #d9d9d9;
+    color: #3b0076;
+    border-radius: 10px;
+    width: 40px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<div class="admin-requests-container">
+  <div class="admin-requests-head">Transaction Details</div>
+  <table mat-table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="accountNumber">
+      <th mat-header-cell *matHeaderCellDef class="brand-logo">Account Number</th>
+      <td mat-cell *matCellDef="let account" class="table-content">
+        {{ account.accountNumber }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="userID">
+      <th mat-header-cell *matHeaderCellDef class="brand-logo">User ID</th>
+      <td mat-cell *matCellDef="let account" class="table-content">
+        {{ account.id }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="transactionType">
+      <th mat-header-cell *matHeaderCellDef class="brand-logo">Transaction Type</th>
+      <td mat-cell *matCellDef="let account" class="table-content">
+        <div *ngFor="let transaction of account.transactions">
+          {{ transaction.transactionType }}
+        </div>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="amountUpdated">
+      <th mat-header-cell *matHeaderCellDef class="brand-logo">Amount</th>
+      <td mat-cell *matCellDef="let account" class="table-content">
+        <div *ngFor="let transaction of account.transactions">
+          {{ transaction.amountUpdated }}
+        </div>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="timestamp">
+      <th mat-header-cell *matHeaderCellDef class="brand-logo">Timestamp</th>
+      <td mat-cell *matCellDef="let account" class="table-content">
+        <div *ngFor="let transaction of account.transactions">
+          {{ transaction.timestamp }}
+        </div>
+      </td>
+    </ng-container>
+
+
+  </table>
+  <mat-paginator
+    #paginator
+    [length]="dataSource.data.length"
+    [pageSize]="3"
+    showFirstLastButtons
+  >
+  </mat-paginator>
+</div>

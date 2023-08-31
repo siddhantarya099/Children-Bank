@@ -1,0 +1,31 @@
+{
+  "users": [{
+    "accountnumber":"123456789",
+    "firstname": "Neha",
+    "middlename": "Vishwanath",
+    "lastname": "Sarnaik",
+    "fathername": "Vishwanath",
+    "mothername": "Nilima",
+    "parentnumber": "9900990066",
+    "parentemailid": "neha@gmail.com",
+    "adharcardnumber": "1234567890",
+    "dateofbirth": "11/11/11",
+    "address": "Maharashtra",
+    "branchcode": "124"
+},
+{
+  "accountnumber":"155453733",
+  "firstname": "Preethi",
+  "middlename": "R",
+  "lastname": "Tholar",
+  "fathername": "aaaaaaa",
+  "mothername": "bbbbbb",
+  "parentnumber": "9999999999",
+  "parentemailid": "preethi@gmail.com",
+  "adharcardnumber": "12004567890",
+  "dateofbirth": "11/11/11",
+  "address": "Karnataka",
+  "branchcode": "124"
+}
+  ]
+}

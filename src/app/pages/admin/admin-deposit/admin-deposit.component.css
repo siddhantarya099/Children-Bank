@@ -1,0 +1,41 @@
+.card {
+  width: 50vw;
+}
+
+.deposit-card {
+  margin: 0 auto;
+  padding: 20px;
+  border: 6px solid #f6e8ff;
+  background-color: #f6e8ff;
+  border-radius: 12px; /* Match the border radius of admin-profile */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.example-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.example-full-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.example-form .example-full-width input[formControlName="userid"] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  background-color: #3b0076;
+  color: white;
+  transition: background-color 0.3s ease, width 0.3s ease;
+  width: 150px;
+  border-radius: 12px; /* Match the border radius of admin-profile */
+}
+
+.submit-button:hover {
+  background-color: #3b0076;
+  width: 180px;
+}

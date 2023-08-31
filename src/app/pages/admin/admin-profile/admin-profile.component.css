@@ -1,0 +1,33 @@
+.admin-profile-container {
+    padding: 40px 50px;
+    border-radius: 12px;
+    background-color: #f6e8ff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin-profile-head {
+    font-weight: 700;
+    font-size: 18px;
+    color: #3b0076;
+}
+
+.admin-profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.admin-profile-detail {
+    display: flex;
+    gap: 5px;
+}
+
+.admin-profile-detail-head {
+    font-weight: 600;
+    color: #3b0076;
+}
+
+
+

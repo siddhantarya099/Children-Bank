@@ -1,0 +1,14 @@
+<div class="admin-page-container">
+    <div class="admin-page-head">Administrator Dashboard</div>
+    <div class="admin-page-body">
+        <div class="admin-page-features">
+            <div class="admin-page-feature" (click)="navigateTo('profile')">Profile</div>
+            <div class="admin-page-feature" (click)="navigateTo('requests')">Requests</div>
+            <div class="admin-page-feature" (click)="navigateTo('users')">Users</div>
+            <div class="admin-page-feature" (click)="navigateTo('deposit')">Deposit</div>
+            <div class="admin-page-feature" (click)="navigateTo('withdraw')">Withdraw</div>
+            <div class="admin-page-feature" (click)="navigateTo('transactions')">Transactions</div>
+        </div>
+        <div class="admin-page-view"><router-outlet></router-outlet></div>
+    </div>
+</div>
